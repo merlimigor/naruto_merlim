@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    width: 6.8%;
+    
+}
+
+
+.gif {
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+}
+
+
+
+.swiper-slide {
+    margin-left: 5px;
+    
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: .3s;
+    transform: ease;
+}
+
+
+
+.botao {
+    position: absolute;
+    right: 1px;
+    border: none;
+    display: flex;
+    justify-content: center;          
+    bottom: 0;
+    line-height: 2rem;
+    opacity: 1;
+    transition: all .3s ease;
+}
+
+.folha {
+    width: 15%;
+}
+
+.botao:hover {
+    bottom: 3.0rem;
+    opacity: 1;
+}
+
+
+.leaf {
+    width: 100%;
+    height: 90rem;
+    position: relative;
+    top: 5rem;
+    z-index: 60;
+    pointer-events: none;
+}
+
+.storie {
+    padding-top: 9.6rem;
+    margin: 0 auto;
+}
+
+.top {
+    background-position: center center;
+    margin: 0 auto;
+    padding-top: 3.8rem;
+    padding-bottom: 5.5rem;
+}
+
+.list-unstyled {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 8.7rem 9rem;
+    padding: 1px 244px;
+}
+
+.media {
+    flex-direction: column;
+}
+
+
+.kunai {
+    display: flex;
+    justify-content: center; 
+    animation: anikunai 4s infinite;
+    margin-top: 80px;
+
+}
+
+.kunaiimg {
+    width: 15%;
+}
+
+@keyframes anikunai {
+    0%{
+        transform: translatey(-3rem);
+    }
+    50%{
+        transform: translatey(0rem);
+    }
+    100%{
+        transform: translatey(-3rem);
+    }
+}
